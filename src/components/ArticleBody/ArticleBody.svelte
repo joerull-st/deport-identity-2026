@@ -48,7 +48,15 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 </script>
 
 <svelte:window bind:innerWidth />
-<Grid additionalClasses={"gap-y-5"}>
+<Grid additionalClasses={"gap-y-5 pt-8"}>
+  <GridRow variant={"inline"}>
+    <div class="rt-Box flex items-center w-full gap-x-2 mb-2">
+      <p class="rt-Text !text-[.875rem] font-utility-label-bold-02 text-text-primary relative">By <a href="https://www.startribune.com/author/rachel-hutton/6370540">Rachel Hutton</a></p>
+    </div>
+  <span class="rt-Text text-text-secondary font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span>
+  <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-2">March 2, 2026</span>
+  </GridRow>
+  
   <GridRow variant={"inline"} additionalClasses={"gap-y-5"}>
     <Paragraph>
       <Dropcap dropCapLines={3}>L</Dropcap>orem ipsum dolor sit amet consectetur

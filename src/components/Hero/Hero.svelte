@@ -55,30 +55,29 @@ Renders a visual replica of the Immersive Template hero.
 </script>
 
 <style>
-  #mydiv { 
-	animation: changeBg 30s infinite;
-	width:100vw;
-	height:80vh;
-	min-height: 800px;
+  #slider { 
+	animation: changeBg 24s infinite;
 	background-repeat: no-repeat;
 	background-size:cover;
   position: relative;
 }
 @keyframes changeBg { 
-   0%,100%  {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96339/6167_x346_2974_9.jpg");}
-   25% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96404/6a78_x316_1edd_9.jpg");}
-   50% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96421/1b01_x087_2216_9.jpg");}
-   75% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir95584/0ca2_x403_1d18_9.jpg");}
+   0%,100%  {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96339/6167_x346_2974_9.jpg"); background-position: center;}
+   25% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96404/6a78_x316_1edd_9.jpg"); background-position: center;}
+   50% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96421/1b01_x087_2216_9.jpg"); background-position: center;}
+   75% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir95584/0ca2_x403_1d18_9.jpg"); background-position: center;}
 }
 </style>
 
-<Grid additionalClasses="!max-w-[100vw]">
-  <GridRow additionalClasses="!max-w-[100vw]">
-    <div id='mydiv'>
-      <div class="hero-text">
-        <h1>From ‘The Good Life’ to good neighbors: Minnesota’s ICE resistance rebranded the state </h1>
-        <h2>How Minneapolis’ response to the immigration crackdown forged a new national identity.</h2>
-      </div>
+<Grid>
+  <GridRow variant="fullBleed">
+    <div class="bg-[#bdcfee] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block px-4 md:w-[385px] xs:w-[100%]  !text-white">
+      <div class="md:absolute bottom-[40px] max-w-[360px] !text-white">
+      <Headline>From ‘The Good Life’<br>to good neighbors:<br>Minnesota’s resistance to ICE rebranded the state </Headline>
+      <Dek>How Minneapolis’ response to the immigration crackdown forged a new national identity.</Dek></div>
+    </div>
+    <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-385px)] md:left-[385px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100vw] xs:block">
+
     </div>
   </GridRow>
 </Grid>

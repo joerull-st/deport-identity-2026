@@ -15,6 +15,6 @@ Wrap this component around the markup you want rendered.
   let { children } = $props();
 </script>
 
-<h1 class="font-editorial-news-heading-01 text-text-primary">
+<h1 class="font-editorial-news-heading-01 text-[2.5rem] text-text-primary pb-4">
   {@render children?.()}
 </h1>
