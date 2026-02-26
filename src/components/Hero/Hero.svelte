@@ -67,17 +67,57 @@ Renders a visual replica of the Immersive Template hero.
    50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?fit=crop&max-w=1500"); background-position: center;}
    75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?fit=crop&max-w=1500"); background-position: center;}
 }
+
+.byline-holder {
+  font-family: graphik-regular;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size:12px;
+  background: 	rgb(102, 102, 102, 0.5);
+  margin-left: auto;
+  padding: 3px 6px;
+  text-align: right;
+display: inline-block;
+position: absolute;
+right: 0px;
+bottom: 0px;
+color: #f2f2f2;
+}
+
+
+.bylineanimated:before {
+  content: "ALEX KORMANN";
+  animation: topToBottom 24s infinite 0s;
+}
+
+@keyframes topToBottom {
+  0%,100% {
+    content: "ALEX KORMANN, The Minnesota Star Tribune";
+  }
+  25% {
+    content: "ALEX KORMANN, The Minnesota Star Tribune";
+  }
+  50% {
+    content: "RICHARD TSONG-TAATARII, The Minnesota Star Tribune";
+  }
+  75% {
+    content: "RICHARD TSONG-TAATARII, The Minnesota Star Tribune";
+  }
+}
 </style>
 
 <Grid>
   <GridRow variant="fullBleed">
-    <div class="bg-[#0d0d0d] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block px-4 md:w-[385px] xs:w-[100%]  !text-white">
+    <div class="bg-[#0d0d0d] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block px-7 md:w-[400px] xs:w-[100%]  !text-white">
       <div class="md:absolute bottom-[40px] max-w-[360px] !text-white">
       <p class="!text-white font-editorial-news-heading-01 text-[2.5rem] text-text-primary pb-4">From ‘The Good Life’<br>to good neighbors:<br>Minnesota’s resistance to ICE rebranded the state </p>
       <p class="!text-white font-editorial-non-news-heading-05 pt-2 md:font-editorial-non-news-heading-04 text-[1.55rem] text-text-primary">How Minneapolis’ response to the immigration crackdown forged a new national identity.</p></div>
     </div>
-    <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-385px)] md:left-[385px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100vw] xs:block">
-
+    <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-400px)] md:left-[400px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100vw] xs:block">
+      <div class="byline-holder">
+        Photo by <span class="bylineanimated"> </span>
+      </div>
     </div>
+
   </GridRow>
 </Grid>

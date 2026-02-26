@@ -67,6 +67,10 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
     <Paragraph>
     But residents’ collective response to the surge — “One of the greatest mass displays of neighborly love that I’ve seen in my lifetime,” as an <a href="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" target="_blank" rel="" title="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" data-mrf-link="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" cmp-ltrk="Article Links" cmp-ltrk-idx="1" mrfobservableid="d14edade-c573-496b-98f6-abe843e451ff">Atlantic writer described it </a>— has ricocheted across the internet, captivated the country’s attention and given the state a new identity.
     </Paragraph>
+
+    <Paragraph>
+      On social media, people started calling Minneapolis the “City of Freedom” and saying “to Minnesotan” should be a verb. “I’m a Black man from Charlotte and you guys are the ‘Americans’ they tell us about in the history books,” a commenter wrote on Minneapolis Reddit. 
+      </Paragraph>
   </GridRow>
   
 
@@ -76,7 +80,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+  <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-12"}>
     <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/FTL5RYNNYBF7DABMNGMAMC2CVM.JPG?&amp;w=1080" style="color: transparent;">
     <p class="photo-cap">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. <span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores/The Minnesota Star Tribune</span></p>
   </GridRow>
@@ -87,10 +91,6 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
   <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    On social media, people started calling Minneapolis the “City of Freedom” and saying “to Minnesotan” should be a verb. “I’m a Black man from Charlotte and you guys are the ‘Americans’ they tell us about in the history books,” a commenter wrote on Minneapolis Reddit. 
-    </Paragraph>
-    
     <Paragraph>
     Many Americans once considered Mill City a mere blip on the radar in flyover country, or the site of a 2020 racial reckoning that set the city ablaze. 
     </Paragraph>
@@ -116,19 +116,19 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+  <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-8"}>
   <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px] ">
-    <div class="md:max-w-6xl mt-8 mb-12 mx-auto px-2">
+    <div class="md:max-w-6xl mt-8 mb-8 mx-auto px-2">
       <div class="md:max-w-6xl mt-2 mb-0 mx-auto px-0">
         <img class="block mb-2" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" alt="photo">
       </div>
       <div class="md:flex">
         <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
-          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080');">
+          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080');">
           </div>
         </div>
         <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
-          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080');">
+          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080');">
           </div>
         </div>
       </div>
@@ -169,10 +169,10 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+  <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-8"}>
   <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
     <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
-      <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
+      <div class="md:!max-w-6xl mt-8 mb-8 mx-auto px-2">
         <div class="md:flex">
           <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
             <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/4MZENQE5CFCD7O7U72L5WVNBGQ.jpg?&amp;w=1080');">
@@ -214,10 +214,10 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-      <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+      <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-8"}>
         <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
           <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
-            <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
+            <div class="md:!max-w-6xl mt-8 mb-8 mx-auto px-2">
               <div class="md:flex">
                 <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
                   <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/D4SLNOFAUBC2DFOZYR3K2LBOS4.JPG?&amp;w=1080');">
@@ -257,10 +257,27 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" style="color: transparent;">
-    <p class="photo-cap">Sydney Hobart, left, and Andrea Sorum led the participants during rehearsal of the songs before marching on Lake Street in Minneapolis Feb. 16, 2026. Singing Resistance gathered  at Midtown Global and surrounding neighborhood because it's been impacted by ICE activity. They want to support business owners, customers, etc. bring a sense of safety, moral support, by bringing songs and coloring books to local shops.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Richard Tsong-Taatarii/The Minnesota Star Tribune</span></p>
-      </GridRow>
+
+      <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-8"}>
+        <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px] ">
+          <div class="md:max-w-6xl mt-8 mb-8 mx-auto px-2">
+            <div class="md:max-w-6xl mt-2 mb-0 mx-auto px-0">
+              <img class="block mb-2" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" alt="photo">
+            </div>
+            <div class="md:flex">
+              <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/VZP7BCZ4FBA2LDV2H4RE3W26PU.jpg?&amp;w=1080');">
+                </div>
+              </div>
+              <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080');">
+                </div>
+              </div>
+            </div>
+            <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Sydney Hobart, left, and Andrea Sorum led the participants during rehearsal of the songs before marching on Lake Street in Minneapolis Feb. 16, 2026. Singing Resistance gathered  at Midtown Global and surrounding neighborhood because it's been impacted by ICE activity. They want to support business owners, customers, etc. bring a sense of safety, moral support, by bringing songs and coloring books to local shops.; Artist Noval Noir works on painting of Alex Pretti at the site of his memorial in Minneapolis, Minn., on Tuesday, Jan. 27, 2026.; North Senior High School students chant and hold signs outside North St. Paul City Hall as they staged a mid-afternoon walkout in protest of ICE and the killing of Renee Good Friday, Jan. 9, 2026 in North St. Paul.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Richard Tsong-Taatarii and Anthony Souffle/The Minnesota Star Tribune</span></p>    </div>
+        </div>
+        </GridRow>
+
 
 
 
@@ -271,42 +288,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
     <Paragraph>
     Some forms of protest have been quirky and lighthearted, even: people in fanciful costumes describing themselves as Inflatable Unicorns United Against Fascism, a “rebel loon” logo, anti-ICE art sleds, quilts and crocheted blankets, even kids coloring sheets of an ICE agent falling on his can. There have been <a href="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" target="_blank" rel="" title="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" data-mrf-link="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" cmp-ltrk="Article Links" cmp-ltrk-idx="9" mrfobservableid="d1968fb0-ca1a-4df9-a79c-53d819f3a8fd">bicycle pelotons</a>, tossed sex toys, jingle dances and a <a href="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" target="_blank" rel="" title="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" data-mrf-link="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" cmp-ltrk="Article Links" cmp-ltrk-idx="10" mrfobservableid="ab1e9588-2b3a-4fae-a927-a44cd41cf08c">Singing Resistance</a>. “These are incredibly brave people in the cold who also seem to have a great sense of humor,” Rybak remarked.
     </Paragraph>
-      </GridRow>
 
-
-
-
-
-
-      <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
-        <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
-          <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
-            <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
-              <div class="md:flex">
-                <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
-                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/WUNZRFAPH5BFDBJYQLK5SQUKME.JPG?&amp;w=1080');">
-                  </div>
-                </div>
-                <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
-                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080');">
-                  </div>
-                </div>
-              </div>
-              <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Protesters take to the streets in downtown Willmar a day after a 19-year-old Somali woman was taken by ICE Agents in Willmar, MN.; North Senior High School students chant and hold signs outside North St. Paul City Hall as they staged a mid-afternoon walkout in protest of ICE and the killing of Renee Good Friday, Jan. 9, 2026 in North St. Paul. <br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores and Anthony Souffle/The Minnesota Star Tribune</span></p>
-              </div>
-            </div>
-          </div>
-      </GridRow>
-
-      
-
-
-
-
-
-
-
-    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
     <Paragraph>
     Several videos depict Minnesotans as straight-talking and gutsy. There’s the lone security guard at a Northside McDonald’s who prevents immigration agents from breaching the counter. The Somali American Uber driver responding with a joke to agents’ racially motivated request he prove citizenship: “Why the hell would I show random people my ID? You want to steal my identity?”
     </Paragraph>
@@ -326,16 +308,12 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
     <Paragraph>
     Some people in other cities were moved enough to considered moving, including the Black man from Charlotte posting on Reddit.
     </Paragraph>
-    
-    <Paragraph>
-    “Out in -4 degrees standing up for the American ideals. I promise you that MOST of your fellow citizens don’t have that type of heart,” he wrote. “Looking like the most righteous city in our nation at the moment. Never thought I’d say this, but I wouldn’t mind living there.”
-    </Paragraph>
     </GridRow>
 
 
 
 
-    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-12 pb-4"}>
     <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/5JUSWTZKEJH4ZMNO6I5U6TAUX4.JPG?&amp;w=1080" style="color: transparent;">
     <p class="photo-cap">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. <br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores/The Minnesota Star Tribune</span></p>
     </GridRow>
@@ -345,7 +323,11 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>    
+      <Paragraph>
+      “Out in -4 degrees standing up for the American ideals. I promise you that MOST of your fellow citizens don’t have that type of heart,” he wrote. “Looking like the most righteous city in our nation at the moment. Never thought I’d say this, but I wouldn’t mind living there.”
+      </Paragraph>
+
     <Paragraph>
     Why did federal agents encounter such robust resistance in the country’s 46<sup>th</sup> largest city, in a state with an <a href="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" target="_blank" rel="" title="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" data-mrf-link="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" cmp-ltrk="Article Links" cmp-ltrk-idx="11" mrfobservableid="921a273f-1122-4978-8d8b-6c7319f1ab5f">estimated 1%</a> of the country’s undocumented immigrants?
     </Paragraph>
@@ -363,7 +345,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-12"}>
     <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JFYVTJHASJAUXOUUICMTV3QLXY.JPG?&amp;w=1080" style="color: transparent;">
     <p class="photo-cap">A protester holds up heart with their hands as thousands march through the streets during an anti-ICE protest in downtown Minneapolis, Minn. on Friday, Jan. 30, 2026.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Alex Kormann/The Minnesota Star Tribune</span></p>
     </GridRow>
