@@ -17,7 +17,7 @@ Renders type in the style of a dropcap when wrapped around text.
   /** @type {{dropCapLines?: 2|3|4|5|6; dropCapFontFamily?: String; children?: function}} */
   let {
     dropCapLines = 2,
-    dropCapFontFamily = "publico-headline-condensed-black",
+    dropCapFontFamily = "publico-headline-condensed-medium",
     children,
   } = $props();
 </script>
