@@ -49,15 +49,321 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 <svelte:window bind:innerWidth />
 <Grid additionalClasses={"gap-y-5 pt-8"}>
-  <GridRow variant={"inline"}>
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
     <div class="rt-Box flex items-center w-full gap-x-2 mb-2">
       <p class="rt-Text !text-[.875rem] font-utility-label-bold-02 text-text-primary relative">By <a href="https://www.startribune.com/author/rachel-hutton/6370540">Rachel Hutton</a></p>
     </div>
   <span class="rt-Text text-text-secondary font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span>
   <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-2">March 2, 2026</span>
   </GridRow>
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+      <Dropcap dropCapLines={3}>A</Dropcap>the federal government’s immigration crackdown recedes, Minnesotans remain divided by agents’ aggressive tactics, with <a href="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" target="_blank" rel="" title="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" data-mrf-link="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" cmp-ltrk="Article Links" cmp-ltrk-idx="0" mrfobservableid="16a3df96-8bd3-480c-9e60-a2b05ee9c62d">two-thirds believing</a> they’ve gone too far. 
+    </Paragraph>
+
+    
+    <Paragraph>
+    But residents’ collective response to the surge — “One of the greatest mass displays of neighborly love that I’ve seen in my lifetime,” as an <a href="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" target="_blank" rel="" title="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" data-mrf-link="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" cmp-ltrk="Article Links" cmp-ltrk-idx="1" mrfobservableid="d14edade-c573-496b-98f6-abe843e451ff">Atlantic writer described it </a>— has ricocheted across the internet, captivated the country’s attention and given the state a new identity.
+    </Paragraph>
+  </GridRow>
   
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5"}>
+
+
+
+
+
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+  <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/FTL5RYNNYBF7DABMNGMAMC2CVM.JPG?&amp;w=1080" style="color: transparent;">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. (Elizabeth Flores/The Minnesota Star Tribune)
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    On social media, people started calling Minneapolis the “City of Freedom” and saying “to Minnesotan” should be a verb. “I’m a Black man from Charlotte and you guys are the ‘Americans’ they tell us about in the history books,” a commenter wrote on Minneapolis Reddit. 
+    </Paragraph>
+    
+    <Paragraph>
+    Many Americans once considered Mill City a mere blip on the radar in flyover country, or the site of a 2020 racial reckoning that set the city ablaze. 
+    </Paragraph>
+    
+    <Paragraph>
+    Then Operation Metro Surge went viral, with a flood of stories and images showing heavily armed agents questioning people based on their appearance and accent, using excessive force, detaining U.S. citizens and fatally shooting two of them, Renee Good and Alex Pretti. 
+    </Paragraph>
+    
+    <Paragraph>
+    Department of Homeland Security leadership repeatedly criticized antagonists and observers for impeding federal immigration enforcement, and some Trump administration supporters blamed Good and Pretti for their own deaths. While protesters heckled the federal officers and some threw snowballs and even a few punches, most civilians simply filmed them with phones. 
+    </Paragraph>
+    
+    <Paragraph>
+    Through social and traditional media, people around the world saw Minneapolis shrouded in tear gas, as if under siege. But they also saw a little city that could, where everyday folk stand up for one another.
+    </Paragraph>
+    
+    <Paragraph>
+    Minnesotans marched by the tens of thousands in below-zero temps, carrying a giant copy of the Constitution. Networks of neighbors came to immigrants’ aid: blowing whistles, patrolling schools, donating food and giving rides.
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" style="color: transparent;">Community members sign a giant art installation modeled after the U.S. Constitution near U.S. Bank Stadium at the end of an anti-ICE protest and march in downtown Minneapolis on Jan. 30. (Alex Kormann/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080" style="color: transparent;">Protesters confront ICE agents in a convoy after one of their vehicles got a flat near 40th and Penn Ave. N.  in Minneapolis on Feb. 5. (Richard Tsong-Taatarii/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080" style="color: transparent;">Emma Wallace, Melissa Kell, Kirstie Kimball and Alex Davis, left to right, form a line to load bags of non-perishable goods into the back of a car at Moona Moono in Minneapolis as part of mutual aid efforts.Over 200,000 pounds of food would be distributed to drop off points. (Alex Kormann/The Minnesota Star Tribune)
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>  
+    <Paragraph>
+    Celebrities lent their influence, roasting Immigration and Customs Enforcement agents in Grammys speeches and late-night bits. <a href="https://www.startribune.com/bruce-springsteen-streets-of-minneapolis-alex-pretti-renee-good-trump-kristi-noem-tom-morello/601572512" target="_blank" rel="" title="https://www.startribune.com/bruce-springsteen-streets-of-minneapolis-alex-pretti-renee-good-trump-kristi-noem-tom-morello/601572512" data-mrf-link="https://www.startribune.com/bruce-springsteen-streets-of-minneapolis-alex-pretti-renee-good-trump-kristi-noem-tom-morello/601572512" cmp-ltrk="Article Links" cmp-ltrk-idx="2" mrfobservableid="d6f24022-984a-41a5-b9fa-b12f06130d6a">Bruce Springsteen</a> and <a href="https://www.startribune.com/u2-renee-good-minneapolis-bono-larry-mullen-bob-dylan-ed-sheeran-ice-american-obituary-protest-song/601584538" target="_blank" rel="" title="https://www.startribune.com/u2-renee-good-minneapolis-bono-larry-mullen-bob-dylan-ed-sheeran-ice-american-obituary-protest-song/601584538" data-mrf-link="https://www.startribune.com/u2-renee-good-minneapolis-bono-larry-mullen-bob-dylan-ed-sheeran-ice-american-obituary-protest-song/601584538" cmp-ltrk="Article Links" cmp-ltrk-idx="3" mrfobservableid="312ee4ee-6b2c-4b75-a7da-13c301bacbc6">U2</a> penned protest songs. The Nation <a href="https://www.thenation.com/article/activism/the-nation-nominates-minneapolis-for-the-nobel-peace-prize/" target="_blank" rel="" title="https://www.thenation.com/article/activism/the-nation-nominates-minneapolis-for-the-nobel-peace-prize/" data-mrf-link="https://www.thenation.com/article/activism/the-nation-nominates-minneapolis-for-the-nobel-peace-prize/" cmp-ltrk="Article Links" cmp-ltrk-idx="4" mrfobservableid="509970f8-8fa7-4a2f-94ef-33610b20cc4a">nominated the city of Minneapolis</a> for the 2026 Nobel Peace Prize.
+    </Paragraph>
+    
+    <Paragraph>
+    Former Minneapolis Mayor R.T. Rybak said people from across the country have told him how inspired they’ve been by Minnesotans’ pushback against the feds’ overreach. “These wonderfully crazy people who cut holes in ice to fish in and jump in showed the country what sticking together against bullying looks like,” Rybak said. “A massive power can’t defeat a united people who are caring for more than themselves.”
+    </Paragraph>
+    
+    <Paragraph>
+    <Subhead>Kindness, community and creativity</Subhead>
+    </Paragraph>
+    
+    <Paragraph>
+    Washington, D.C.-based journalist Michele Norris of MS NOW has an insiders’ and outsiders’ perspective on her hometown, as an alum of Minneapolis’ Washburn High School and the University of Minnesota. 
+    </Paragraph>
+    
+    <Paragraph>
+    She said Minnesota is often known by its geography, institutions and pop culture, citing the state’s cold weather and 10,000 lakes; the Mall of America, Target and the Mayo Clinic; Prince, Betty White, and “Fargo.” “It’s a place where people talk a little bit funny and have a strong moral core,” she said. 
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/4MZENQE5CFCD7O7U72L5WVNBGQ.jpg?&amp;w=1080" style="color: transparent;">Members of St. Paul Evangelical Lutheran church protested against ICE along Lake Street on January 11 in Minneapolis. (Jerry Holt/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/I7JHQJPTBVAM7BQZ5SF4NQZNDM.jpg?&amp;w=1080" style="color: transparent;">A man took off his skates while community members lit luminaires spelling out the words “ICE OUT” on the frozen surface of Lake Nokomis in Minneapolis. (Jeff Wheeler/The Minnesota Star Tribune)
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+
+
+      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    After reporting on the immigration crackdown from Minnesota, Norris described residents’ resistance as much broader than typical protests, more grassroots and freewheeling, “a cocktail of kindness, community and creativity.” It’s encompassed everything from politicians dropping f-bombs to brass bands dropping beats.
+    </Paragraph>
+    
+    <Paragraph>
+    Minnesota Nice extended even to presumed adversaries. Two women arrested by ICE in Brooklyn Park <a href="https://www.startribune.com/detained-by-ice-two-women-became-first-responders-during-agents-seizure/601569667" target="_blank" rel="" title="https://www.startribune.com/detained-by-ice-two-women-became-first-responders-during-agents-seizure/601569667" data-mrf-link="https://www.startribune.com/detained-by-ice-two-women-became-first-responders-during-agents-seizure/601569667" cmp-ltrk="Article Links" cmp-ltrk-idx="5" mrfobservableid="4b5440d4-d0ed-4cc4-965f-858e54399f78">provided medical care to an agent</a> who had a seizure while taking them into custody. When Jake Lang, a Jan. 6 rioter known for his racist rhetoric, was surrounded by counter-protesters near Minneapolis City Hall, a Black man helped<a href="https://www.startribune.com/man-reveals-why-he-rescued-right-wing-influencer-jake-lang-from-mob-outside-minneapolis-city-hall/601566873" target="_blank" rel="" title="https://www.startribune.com/man-reveals-why-he-rescued-right-wing-influencer-jake-lang-from-mob-outside-minneapolis-city-hall/601566873" data-mrf-link="https://www.startribune.com/man-reveals-why-he-rescued-right-wing-influencer-jake-lang-from-mob-outside-minneapolis-city-hall/601566873" cmp-ltrk="Article Links" cmp-ltrk-idx="6" mrfobservableid="a75e75ee-e8ec-4e52-92b3-b5ee02a76da4"> lead him out of the crowd.</a> When Lang approached a car and begged for help, the Black women inside gave him a ride. The last thing Renee Good said to immigration agents before one fatally shot her in south Minneapolis was, “That’s fine, dude, I’m not mad at you.”
+    </Paragraph>
+      </GridRow>
+
+
+
+
+
+
+
+      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/D4SLNOFAUBC2DFOZYR3K2LBOS4.JPG?&amp;w=1080" style="color: transparent;">Jake Lang, who organized the protest March Against Minnesota Fraud, center, is walked away f rom counter protesters by an unidentified away after an altercation near Minneapolis City Hall. (Yuki Iwamura/The Associated Press)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/UUIRKANZFZE5ZP6EWCVJZLAXKY.JPG?&amp;w=1080" style="color: transparent;">A car that picked up Jake Lang, who organized the protest March Against Minnesota Fraud, leaves the rally with Lang in the back seat near Minneapolis City Hall. (Yuki Iwamura/The Associated Press)
+    </Paragraph>
+      </GridRow>
+
+
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    Both Norris and Rybak cited the sum of so many ordinary acts as the reason for the movement’s impact. That includes neighbors posting up at immigrant-owned businesses or coffee shops and churches providing humanitarian relief. 
+    </Paragraph>
+    
+    <Paragraph>
+    The anti-ICE coalition has drawn unlikely advocates, including <a href="https://www.startribune.com/this-suburban-dads-rant-became-touchpoint-of-ice-opposition/601568067" target="_blank" rel="" title="https://www.startribune.com/this-suburban-dads-rant-became-touchpoint-of-ice-opposition/601568067" data-mrf-link="https://www.startribune.com/this-suburban-dads-rant-became-touchpoint-of-ice-opposition/601568067" cmp-ltrk="Article Links" cmp-ltrk-idx="7" mrfobservableid="5c2554fb-fded-4b4a-ba96-89ebdb9a894b">privileged suburban white guys</a> who don’t consider themselves activists, and conservatives disturbed by the operations’ civil rights violations and immense cost. 
+    </Paragraph>
+    
+    <Paragraph>
+    Some of the resistance’s most powerful voices were not those of pundits but regular people, including the poignant testimony of Stella Carlson, the lady in the pink coat who filmed the agents who fatally shot Alex Pretti. It wasn’t venture capitalists raising Vegas-casino volumes of cash to pay immigrants’ rent, but <a href="https://www.startribune.com/the-unexpected-resistance-to-ice-in-minnesota-the-soccer-moms-of-signal/601571253" target="_blank" rel="" title="https://www.startribune.com/the-unexpected-resistance-to-ice-in-minnesota-the-soccer-moms-of-signal/601571253" data-mrf-link="https://www.startribune.com/the-unexpected-resistance-to-ice-in-minnesota-the-soccer-moms-of-signal/601571253" cmp-ltrk="Article Links" cmp-ltrk-idx="8" mrfobservableid="23fae88b-fc20-4f03-9d21-7e43b45fcac0">Signal-savvy minivan moms</a>. 
+    </Paragraph>
+    </GridRow>
+
+
+
+      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" style="color: transparent;">Sydney Hobart, left, and Andrea Sorum led the participants during rehearsal of the songs before marching on Lake Street in Minneapolis Feb. 16, 2026. ] Singing Resistance gathered  at Midtown Global and surrounding neighborhood because it's been impacted by ICE activity. They want to support business owners, customers, etc. bring a sense of safety, moral support, by bringing songs and coloring books to local shops. (Richard Tsong-Taatarii/The Minnesota Star Tribune)
+    </Paragraph>
+      </GridRow>
+
+
+
+
+
+
+      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    Some forms of protest have been quirky and lighthearted, even: people in fanciful costumes describing themselves as Inflatable Unicorns United Against Fascism, a “rebel loon” logo, anti-ICE art sleds, quilts and crocheted blankets, even kids coloring sheets of an ICE agent falling on his can. There have been <a href="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" target="_blank" rel="" title="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" data-mrf-link="https://www.startribune.com/popping-up-by-the-hour-bike-rides-to-honor-alex-pretti-going-global/601572511" cmp-ltrk="Article Links" cmp-ltrk-idx="9" mrfobservableid="d1968fb0-ca1a-4df9-a79c-53d819f3a8fd">bicycle pelotons</a>, tossed sex toys, jingle dances and a <a href="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" target="_blank" rel="" title="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" data-mrf-link="https://www.startribune.com/minnesotas-singing-resistance-seeks-to-heal-through-love/601582250" cmp-ltrk="Article Links" cmp-ltrk-idx="10" mrfobservableid="ab1e9588-2b3a-4fae-a927-a44cd41cf08c">Singing Resistance</a>. “These are incredibly brave people in the cold who also seem to have a great sense of humor,” Rybak remarked.
+    </Paragraph>
+      </GridRow>
+
+
+
+
+  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/WUNZRFAPH5BFDBJYQLK5SQUKME.JPG?&amp;w=1080" style="color: transparent;">Protesters take to the streets in downtown Willmar a day after a 19-year-old Somali woman was taken by ICE Agents in Willmar, MN. (Elizabeth Flores/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080" style="color: transparent;">North Senior High School students chant and hold signs outside North St. Paul City Hall as they staged a mid-afternoon walkout in protest of ICE and the killing of Renee Good Friday, Jan. 9, 2026 in North St. Paul. (Anthony Souffle/The Minnesota Star Tribune)
+    </Paragraph>
+  </GridRow>
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    Several videos depict Minnesotans as straight-talking and gutsy. There’s the lone security guard at a Northside McDonald’s who prevents immigration agents from breaching the counter. The Somali American Uber driver responding with a joke to agents’ racially motivated request he prove citizenship: “Why the hell would I show random people my ID? You want to steal my identity?”
+    </Paragraph>
+    
+    <Paragraph>
+    “For a clinically humble people, this is as close to swagger as we get,” Rybak said of notoriously conflict-avoidant Minnesotans being moved to expletive-filled tirades. “And that’s empowering people from elsewhere.”
+    </Paragraph>
+    
+    <Paragraph>
+    <Subhead>Why Minnesota? </Subhead>
+    </Paragraph>
+    
+    <Paragraph>
+    Minnesota’s anti-ICE protests have inspired demonstrators in other cities, including Bostonians’ chanting: “We’re not cold, we’re not afraid, Minnesota taught us to be brave!”
+    </Paragraph>
+    
+    <Paragraph>
+    Some people in other cities were moved enough to considered moving, including the Black man from Charlotte posting on Reddit.
+    </Paragraph>
+    
+    <Paragraph>
+    “Out in -4 degrees standing up for the American ideals. I promise you that MOST of your fellow citizens don’t have that type of heart,” he wrote. “Looking like the most righteous city in our nation at the moment. Never thought I’d say this, but I wouldn’t mind living there.”
+    </Paragraph>
+    </GridRow>
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/5JUSWTZKEJH4ZMNO6I5U6TAUX4.JPG?&amp;w=1080" style="color: transparent;">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus.  (Elizabeth Flores/The Minnesota Star Tribune)
+    </Paragraph>
+    </GridRow>
+    
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    Why did federal agents encounter such robust resistance in the country’s 46<sup>th</sup> largest city, in a state with an <a href="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" target="_blank" rel="" title="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" data-mrf-link="https://www.startribune.com/how-ice-numbers-compare-to-twin-cities-largest-police-forces/601562617" cmp-ltrk="Article Links" cmp-ltrk-idx="11" mrfobservableid="921a273f-1122-4978-8d8b-6c7319f1ab5f">estimated 1%</a> of the country’s undocumented immigrants?
+    </Paragraph>
+    
+    <Paragraph>
+    Geography has something to do with it. The Twin Cities are a rare urban center that draws from a large rural area, Rybak noted, and people a generation or two off the farm tend to maintain ties to small towns and a know-all-your-neighbors mentality.
+    </Paragraph>
+    
+    <Paragraph>
+    Norris pointed to Minnesota’s harsh weather as underpinning a culture of collectivism and mutual aid. A place where strangers will push your car out of a snowbank because someday you’ll return the favor is one that maintains some of the country’s highest voting and volunteering rates. When the “ICE storm” descended, Norris said, pre-existing networks — neighborhood groups, religious communities, school associations, unions, service clubs — sprang into action.
+    </Paragraph>
+    </GridRow>
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JFYVTJHASJAUXOUUICMTV3QLXY.JPG?&amp;w=1080" style="color: transparent;">A protester holds up heart with their hands as thousands march through the streets during an anti-ICE protest in downtown Minneapolis, Minn. on Friday, Jan. 30, 2026.
+    
+    ALEX KORMANN • alex.kormann@startribune.com (Alex Kormann/The Minnesota Star Tribune)<Subhead>From ‘The Good Life’ to good neighbor</Subhead>
+    </Paragraph>
+    </GridRow>
+
+
+
+
+
+
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+    <Paragraph>
+    Rybak remembers the pride felt statewide, in 1973, when Minnesota’s plaid-shirted governor hoisted a northern pike on the cover of Time to tout the state’s “good life.” The story highlighted Minnesota’s high quality of life, bipartisan cooperation, thriving arts scene and education system, but overlooked its gaping racial disparities. 
+    </Paragraph>
+    
+    <Paragraph>
+    The “good life” was certainly not so good for everyone. Norris, who is Black, lived the nuance and complexity of Minnesotans’ views on race. Her parents’ south Minneapolis home had a racial covenant, she said, and after they bought the place, several of their white neighbors moved. And yet the state had harbored mixed-race families when most of the country forbade interracial marriage, and her neighborhood, school and church communities were mostly welcoming and diverse. 
+    </Paragraph>
+    
+    <Paragraph>
+    Rybak says a good-neighbor identity offers a more realistic portrayal than Minnesota’s overly glossy “good life” magazine cover. “George Floyd’s murder exposed our imperfections to the world, and it was ugly, but it was the work we had to do,” he said. “The place that showed the power of love over hate was a humbler, but more sincere, Minnesota.”
+    </Paragraph>
+    </GridRow>
+    
+
+
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+<!------------------------------------- sample article elements below ------------------------------>
+
+
+
+
+
+  
+  <!-- <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"} additionalClasses="gap-y-5">
     <Paragraph>
       <Dropcap dropCapLines={3}>L</Dropcap>orem ipsum dolor sit amet consectetur
       adipisicing elit.
@@ -81,7 +387,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
       ratione laborum ab omnis quibusdam, accusamus vel eum culpa repellendus
       exercitationem. Fugit, consequatur!</Paragraph
     >
-  </GridRow>
+  </GridRow> -->
 
   <GridRow variant="fullBleed">
     <Gallery />

@@ -62,19 +62,19 @@ Renders a visual replica of the Immersive Template hero.
   position: relative;
 }
 @keyframes changeBg { 
-   0%,100%  {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96339/6167_x346_2974_9.jpg"); background-position: center;}
-   25% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96404/6a78_x316_1edd_9.jpg"); background-position: center;}
-   50% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir96421/1b01_x087_2216_9.jpg"); background-position: center;}
-   75% {background-image: url("https://min.merlinone.net/mx/thumbsx3/2026/01/tdir95584/0ca2_x403_1d18_9.jpg"); background-position: center;}
+   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg"); background-position: center;}
+   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG"); background-position: center;}
+   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG"); background-position: center;}
+   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG"); background-position: center;}
 }
 </style>
 
 <Grid>
   <GridRow variant="fullBleed">
-    <div class="bg-[#bdcfee] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block px-4 md:w-[385px] xs:w-[100%]  !text-white">
+    <div class="bg-[#0d0d0d] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block px-4 md:w-[385px] xs:w-[100%]  !text-white">
       <div class="md:absolute bottom-[40px] max-w-[360px] !text-white">
-      <Headline>From ‘The Good Life’<br>to good neighbors:<br>Minnesota’s resistance to ICE rebranded the state </Headline>
-      <Dek>How Minneapolis’ response to the immigration crackdown forged a new national identity.</Dek></div>
+      <p class="!text-white font-editorial-news-heading-01 text-[2.5rem] text-text-primary pb-4">From ‘The Good Life’<br>to good neighbors:<br>Minnesota’s resistance to ICE rebranded the state </p>
+      <p class="!text-white font-editorial-non-news-heading-05 pt-2 md:font-editorial-non-news-heading-04 text-[1.55rem] text-text-primary">How Minneapolis’ response to the immigration crackdown forged a new national identity.</p></div>
     </div>
     <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-385px)] md:left-[385px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100vw] xs:block">
 
