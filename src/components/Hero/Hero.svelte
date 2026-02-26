@@ -62,10 +62,10 @@ Renders a visual replica of the Immersive Template hero.
   position: relative;
 }
 @keyframes changeBg { 
-   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg"); background-position: center;}
-   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG"); background-position: center;}
-   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG"); background-position: center;}
-   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG"); background-position: center;}
+   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg?fit=crop&max-w=1500"); background-position: center;}
+   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?fit=crop&max-w=1500"); background-position: center;}
+   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?fit=crop&max-w=1500"); background-position: center;}
+   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?fit=crop&max-w=1500"); background-position: center;}
 }
 </style>
 

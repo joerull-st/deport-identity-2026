@@ -48,19 +48,19 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 </script>
 
 <svelte:window bind:innerWidth />
-<Grid additionalClasses={"gap-y-5 pt-8"}>
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+<Grid additionalClasses={"pt-4 pb-8"}>
+  <GridRow variant={"inline"}>
     <div class="rt-Box flex items-center w-full gap-x-2 mb-2">
-      <p class="rt-Text !text-[.875rem] font-utility-label-bold-02 text-text-primary relative">By <a href="https://www.startribune.com/author/rachel-hutton/6370540">Rachel Hutton</a></p>
+      <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] text-text-primary relative">By <a href="https://www.startribune.com/author/rachel-hutton/6370540">Rachel Hutton</a></p>
     </div>
   <span class="rt-Text text-text-secondary font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span>
-  <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-2">March 2, 2026</span>
+  <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] rt-Text font-utility-label-reg-caps-03 text-text-secondary">March 2, 2026</span>
   </GridRow>
 
 
   <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
     <Paragraph>
-      <Dropcap dropCapLines={3}>A</Dropcap>the federal government’s immigration crackdown recedes, Minnesotans remain divided by agents’ aggressive tactics, with <a href="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" target="_blank" rel="" title="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" data-mrf-link="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" cmp-ltrk="Article Links" cmp-ltrk-idx="0" mrfobservableid="16a3df96-8bd3-480c-9e60-a2b05ee9c62d">two-thirds believing</a> they’ve gone too far. 
+      <Dropcap dropCapLines={4}>A</Dropcap>s the federal government’s immigration crackdown recedes, Minnesotans remain divided by agents’ aggressive tactics, with <a href="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" target="_blank" rel="" title="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" data-mrf-link="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" cmp-ltrk="Article Links" cmp-ltrk-idx="0" mrfobservableid="16a3df96-8bd3-480c-9e60-a2b05ee9c62d">two-thirds believing</a> they’ve gone too far. 
     </Paragraph>
 
     
@@ -76,10 +76,9 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-  <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/FTL5RYNNYBF7DABMNGMAMC2CVM.JPG?&amp;w=1080" style="color: transparent;">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. (Elizabeth Flores/The Minnesota Star Tribune)
-    </Paragraph>
+  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/FTL5RYNNYBF7DABMNGMAMC2CVM.JPG?&amp;w=1080" style="color: transparent;">
+    <p class="photo-cap">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. <span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores/The Minnesota Star Tribune</span></p>
   </GridRow>
 
 
@@ -117,12 +116,27 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" style="color: transparent;">Community members sign a giant art installation modeled after the U.S. Constitution near U.S. Bank Stadium at the end of an anti-ICE protest and march in downtown Minneapolis on Jan. 30. (Alex Kormann/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080" style="color: transparent;">Protesters confront ICE agents in a convoy after one of their vehicles got a flat near 40th and Penn Ave. N.  in Minneapolis on Feb. 5. (Richard Tsong-Taatarii/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080" style="color: transparent;">Emma Wallace, Melissa Kell, Kirstie Kimball and Alex Davis, left to right, form a line to load bags of non-perishable goods into the back of a car at Moona Moono in Minneapolis as part of mutual aid efforts.Over 200,000 pounds of food would be distributed to drop off points. (Alex Kormann/The Minnesota Star Tribune)
-    </Paragraph>
+  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+  <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px] ">
+    <div class="md:max-w-6xl mt-8 mb-12 mx-auto px-2">
+      <div class="md:max-w-6xl mt-2 mb-0 mx-auto px-0">
+        <img class="block mb-2" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" alt="photo">
+      </div>
+      <div class="md:flex">
+        <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080');">
+          </div>
+        </div>
+        <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080');">
+          </div>
+        </div>
+      </div>
+      <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Community members sign a giant art installation modeled after the U.S. Constitution near U.S. Bank Stadium at the end of an anti-ICE protest and march in downtown Minneapolis on Jan. 30.; Protesters confront ICE agents in a convoy after one of their vehicles got a flat near 40th and Penn Ave. N.  in Minneapolis on Feb. 5.; Emma Wallace, Melissa Kell, Kirstie Kimball and Alex Davis, left to right, form a line to load bags of non-perishable goods into the back of a car at Moona Moono in Minneapolis as part of mutual aid efforts.Over 200,000 pounds of food would be distributed to drop off points.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Alex Kormann and Richard Tsong-Taatarii/The Minnesota Star Tribune</span></p>    </div>
+  </div>
   </GridRow>
+
+
 
 
 
@@ -155,16 +169,26 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
+  <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+  <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
+    <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
+      <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
+        <div class="md:flex">
+          <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+            <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/4MZENQE5CFCD7O7U72L5WVNBGQ.jpg?&amp;w=1080');">
+            </div>
+          </div>
+          <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+            <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/I7JHQJPTBVAM7BQZ5SF4NQZNDM.jpg?&amp;w=1080');">
+            </div>
+          </div>
+        </div>
+        <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Members of St. Paul Evangelical Lutheran church protested against ICE along Lake Street on January 11 in Minneapolis.; A man took off his skates while community members lit luminaires spelling out the words “ICE OUT” on the frozen surface of Lake Nokomis in Minneapolis. <span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Jerry Holt and Jeff Wheeler/The Minnesota Star Tribune</span></p>
+        </div>
+      </div>
+    </div>
+</GridRow>
 
-
-
-
-
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/4MZENQE5CFCD7O7U72L5WVNBGQ.jpg?&amp;w=1080" style="color: transparent;">Members of St. Paul Evangelical Lutheran church protested against ICE along Lake Street on January 11 in Minneapolis. (Jerry Holt/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/I7JHQJPTBVAM7BQZ5SF4NQZNDM.jpg?&amp;w=1080" style="color: transparent;">A man took off his skates while community members lit luminaires spelling out the words “ICE OUT” on the frozen surface of Lake Nokomis in Minneapolis. (Jeff Wheeler/The Minnesota Star Tribune)
-    </Paragraph>
-  </GridRow>
 
 
 
@@ -188,11 +212,28 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/D4SLNOFAUBC2DFOZYR3K2LBOS4.JPG?&amp;w=1080" style="color: transparent;">Jake Lang, who organized the protest March Against Minnesota Fraud, center, is walked away f rom counter protesters by an unidentified away after an altercation near Minneapolis City Hall. (Yuki Iwamura/The Associated Press)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/UUIRKANZFZE5ZP6EWCVJZLAXKY.JPG?&amp;w=1080" style="color: transparent;">A car that picked up Jake Lang, who organized the protest March Against Minnesota Fraud, leaves the rally with Lang in the back seat near Minneapolis City Hall. (Yuki Iwamura/The Associated Press)
-    </Paragraph>
+
+
+      <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+        <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
+          <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
+            <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
+              <div class="md:flex">
+                <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/D4SLNOFAUBC2DFOZYR3K2LBOS4.JPG?&amp;w=1080');">
+                  </div>
+                </div>
+                <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/UUIRKANZFZE5ZP6EWCVJZLAXKY.JPG?&amp;w=1080');">
+                  </div>
+                </div>
+              </div>
+              <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Jake Lang, who organized the protest March Against Minnesota Fraud, center, is walked away f rom counter protesters by an unidentified away after an altercation near Minneapolis City Hall.; A car that picked up Jake Lang, who organized the protest March Against Minnesota Fraud, leaves the rally with Lang in the back seat near Minneapolis City Hall.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Yuki Iwamura/The Associated Press</span></p>
+              </div>
+            </div>
+          </div>
       </GridRow>
+
 
 
 
@@ -216,10 +257,9 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-      <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" style="color: transparent;">Sydney Hobart, left, and Andrea Sorum led the participants during rehearsal of the songs before marching on Lake Street in Minneapolis Feb. 16, 2026. ] Singing Resistance gathered  at Midtown Global and surrounding neighborhood because it's been impacted by ICE activity. They want to support business owners, customers, etc. bring a sense of safety, moral support, by bringing songs and coloring books to local shops. (Richard Tsong-Taatarii/The Minnesota Star Tribune)
-    </Paragraph>
+    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" style="color: transparent;">
+    <p class="photo-cap">Sydney Hobart, left, and Andrea Sorum led the participants during rehearsal of the songs before marching on Lake Street in Minneapolis Feb. 16, 2026. Singing Resistance gathered  at Midtown Global and surrounding neighborhood because it's been impacted by ICE activity. They want to support business owners, customers, etc. bring a sense of safety, moral support, by bringing songs and coloring books to local shops.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Richard Tsong-Taatarii/The Minnesota Star Tribune</span></p>
       </GridRow>
 
 
@@ -236,11 +276,31 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-  <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/WUNZRFAPH5BFDBJYQLK5SQUKME.JPG?&amp;w=1080" style="color: transparent;">Protesters take to the streets in downtown Willmar a day after a 19-year-old Somali woman was taken by ICE Agents in Willmar, MN. (Elizabeth Flores/The Minnesota Star Tribune)<img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080" style="color: transparent;">North Senior High School students chant and hold signs outside North St. Paul City Hall as they staged a mid-afternoon walkout in protest of ICE and the killing of Renee Good Friday, Jan. 9, 2026 in North St. Paul. (Anthony Souffle/The Minnesota Star Tribune)
-    </Paragraph>
-  </GridRow>
+
+
+      <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+        <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[1800px] ">
+          <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px]">
+            <div class="md:max-w-7xl mt-8 mb-12 mx-auto px-2">
+              <div class="md:flex">
+                <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/WUNZRFAPH5BFDBJYQLK5SQUKME.JPG?&amp;w=1080');">
+                  </div>
+                </div>
+                <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+                  <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080');">
+                  </div>
+                </div>
+              </div>
+              <p class="photo-cap">GROUP CAP HERE. SOURCE CAPS: Protesters take to the streets in downtown Willmar a day after a 19-year-old Somali woman was taken by ICE Agents in Willmar, MN.; North Senior High School students chant and hold signs outside North St. Paul City Hall as they staged a mid-afternoon walkout in protest of ICE and the killing of Renee Good Friday, Jan. 9, 2026 in North St. Paul. <br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores and Anthony Souffle/The Minnesota Star Tribune</span></p>
+              </div>
+            </div>
+          </div>
+      </GridRow>
+
+      
+
+
 
 
 
@@ -275,10 +335,9 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/5JUSWTZKEJH4ZMNO6I5U6TAUX4.JPG?&amp;w=1080" style="color: transparent;">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus.  (Elizabeth Flores/The Minnesota Star Tribune)
-    </Paragraph>
+    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/5JUSWTZKEJH4ZMNO6I5U6TAUX4.JPG?&amp;w=1080" style="color: transparent;">
+    <p class="photo-cap">Clergy and community members came together outside Terminal 1 in subzero temperatures to rally against a connection between the airport, Delta Air Lines and ICE’s enforcement actions in Bloomington, MN on Jan. 23. About 100 clergy leaders were detained by airport police and taken by bus. <br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Elizabeth Flores/The Minnesota Star Tribune</span></p>
     </GridRow>
     
 
@@ -304,12 +363,9 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
 
-    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
-    <Paragraph>
-    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JFYVTJHASJAUXOUUICMTV3QLXY.JPG?&amp;w=1080" style="color: transparent;">A protester holds up heart with their hands as thousands march through the streets during an anti-ICE protest in downtown Minneapolis, Minn. on Friday, Jan. 30, 2026.
-    
-    ALEX KORMANN • alex.kormann@startribune.com (Alex Kormann/The Minnesota Star Tribune)<Subhead>From ‘The Good Life’ to good neighbor</Subhead>
-    </Paragraph>
+    <GridRow variant={"fullBleed"} additionalClasses={"max-w-7xl gap-y-5 pt-8"}>
+    <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/JFYVTJHASJAUXOUUICMTV3QLXY.JPG?&amp;w=1080" style="color: transparent;">
+    <p class="photo-cap">A protester holds up heart with their hands as thousands march through the streets during an anti-ICE protest in downtown Minneapolis, Minn. on Friday, Jan. 30, 2026.<br><span style="white-space: nowrap; line-height:2.0; text-transform: uppercase; letter-spacing: .5px; font-size:11px;">Alex Kormann/The Minnesota Star Tribune</span></p>
     </GridRow>
 
 
@@ -318,6 +374,8 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 
     <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
+      <Subhead>From ‘The Good Life’ to good neighbor</Subhead>
+
     <Paragraph>
     Rybak remembers the pride felt statewide, in 1973, when Minnesota’s plaid-shirted governor hoisted a northern pike on the cover of Time to tout the state’s “good life.” The story highlighted Minnesota’s high quality of life, bipartisan cooperation, thriving arts scene and education system, but overlooked its gaping racial disparities. 
     </Paragraph>
@@ -330,6 +388,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
     Rybak says a good-neighbor identity offers a more realistic portrayal than Minnesota’s overly glossy “good life” magazine cover. “George Floyd’s murder exposed our imperfections to the world, and it was ugly, but it was the work we had to do,” he said. “The place that showed the power of love over hate was a humbler, but more sincere, Minnesota.”
     </Paragraph>
     </GridRow>
+  </Grid>
     
 
 
@@ -388,7 +447,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
       exercitationem. Fugit, consequatur!</Paragraph
     >
   </GridRow> -->
-
+<!-- 
   <GridRow variant="fullBleed">
     <Gallery />
   </GridRow>
@@ -504,7 +563,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
       caption="Caption tk tk tk"
     />
   </GridRow>
-</Grid>
+</Grid> -->
 
 <style>
   a {
@@ -515,5 +574,24 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
   a:hover {
     color: #00854b;
+  }
+
+	@font-face {
+		font-family:graphik-regular;
+		src:url("https://static.startribune.com/fonts/GraphikRegular/Graphik-Regular.woff2") format("woff2");
+		font-style:normal;
+		font-display:swap;
+	}
+	p {
+		font-family:graphik-regular;
+	}
+
+  .photo-cap {
+    font-family: graphik-regular;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    max-width: 725px;
+    padding-top: 10px;
   }
 </style>
