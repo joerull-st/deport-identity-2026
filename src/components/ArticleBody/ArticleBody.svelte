@@ -50,7 +50,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 <svelte:window bind:innerWidth />
 <Grid additionalClasses={"pt-4 pb-8"}>
 <GridRow variant={"inline"}>
-    <p class="!font-publico-headline-roman font-regular leading-heading-extra-tight text-[1.75rem] md:max-w-[420px] xs:max-w-[40px] text-text-primary md:text-left xs:text-left xs:pb-4 pt-4">How Minneapolis' ICE resistance forged a new identity for the state.</p>
+    <p class="!font-publico-headline-roman font-regular leading-heading-extra-tight text-[1.75rem] md:max-w-[420px] xs:max-w-[430px] text-text-primary md:text-left xs:text-left xs:pb-4 pt-4">How Minneapolis' ICE resistance forged a new identity for the state.</p>
     <div class="rt-Box flex items-center w-full gap-x-2 mb-2">
       <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] text-text-primary relative">By <a href="https://www.startribune.com/author/rachel-hutton/6370540">Rachel Hutton</a></p>
     </div>

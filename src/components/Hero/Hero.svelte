@@ -108,12 +108,12 @@ color: #f2f2f2;
 
 <Grid>
   <GridRow variant="fullBleed" additionalClasses="block">
-    <div class="bg-[#0d0d0d] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block md:pl-7 md:w-[440px] xs:w-[100%]  !text-white">
+    <div class="bg-[#0d0d0d] hero-text md:h-[50vw] md:min-h-[450px]  md:float-left xs:float-none xs:block md:pl-7 md:w-[440px] xs:w-[100vw]  !text-white">
       <div class=" md:absolute md:bottom-[25px] md:max-w-[385px] md:pt-0 md:pb-0 xs:pt-8 xs:pb-6 xs:max-w-[370px] xs:mx-auto !text-white">
       <p class="text-right !text-white font-editorial-news-heading-01 text-[3.25rem] text-text-primary pb-2 md:text-left xs:text-center ">From ‘The Good Life’ to good neighbors</p>
       <!-- <p class="!text-white font-editorial-non-news-heading-05 pt-2 md:font-editorial-non-news-heading-04 text-[1.45rem] md:max-w-[340px] text-text-primary md:text-left xs:text-center xs:pb-4">How Minneapolis’ response to the immigration crackdown forged a new national identity.</p></div> -->
     </div>
-    <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-440px)] md:left-[calc(440px-1.75rem)] xs:left-[0px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100%] xs:left-[0px]">
+    <div id='slider' class="md:h-[50vw] md:max-h-[50vw] md:min-h-[450px] md:w-[calc(100vw-440px)] md:left-[calc(440px-1.75rem)] xs:left-[0px] xs:max-h-[600px] xs:h-[50vh] xs:w-[100vw] xs:left-[0px]">
       <div class="byline-holder">
         <span class="bylineanimated"> </span>
       </div>
