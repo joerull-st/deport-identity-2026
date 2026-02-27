@@ -61,7 +61,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
   <GridRow variant={"inline"} additionalClasses={"gap-y-5 pt-8"}>
     <Paragraph>
-      <Dropcap dropCapLines={4}>A</Dropcap>s the federal government’s immigration crackdown recedes, Minnesotans remain divided by agents’ aggressive tactics, with <a href="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" target="_blank" rel="" title="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" data-mrf-link="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" cmp-ltrk="Article Links" cmp-ltrk-idx="0" mrfobservableid="16a3df96-8bd3-480c-9e60-a2b05ee9c62d">two-thirds believing</a> they’ve gone too far. 
+      <Dropcap dropCapLines={3}>A</Dropcap>s the federal government’s immigration crackdown recedes, Minnesotans remain divided by agents’ aggressive tactics, with <a href="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" target="_blank" rel="" title="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" data-mrf-link="https://www.startribune.com/poll-trumps-immigration-crackdown-deeply-unpopular-in-minnesota/601579330" cmp-ltrk="Article Links" cmp-ltrk-idx="0" mrfobservableid="16a3df96-8bd3-480c-9e60-a2b05ee9c62d">two-thirds believing</a> they’ve gone too far. 
     </Paragraph>
 
     
@@ -577,7 +577,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
   }
 
   .photo-cap .attrib {
-    padding-top: 10px;
+    padding-top: 5px;
     color: #666; 
   line-height: 120%;
   text-transform: uppercase;
