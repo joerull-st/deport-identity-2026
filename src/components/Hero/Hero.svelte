@@ -63,11 +63,12 @@ Renders a visual replica of the Immersive Template hero.
   position: relative;
 }
 @keyframes changeBg { 
-   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg?w=1000"); background-position: center;}
-   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?w=1000"); background-position: center;}
-   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?w=1000"); background-position: center;}
-   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?w=1000"); background-position: center;}
+   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?w=1000"); background-position: center;}
+   25% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?w=1000"); background-position: center;}
+   50% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?w=1000"); background-position: center;}
+   75% {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg?w=1000"); background-position: center;}
 }
+
 
 .byline-holder {
   font-family: graphik-regular;
@@ -96,13 +97,13 @@ color: #f2f2f2;
     content: "ALEX KORMANN, The Minnesota Star Tribune";
   }
   25% {
-    content: "ALEX KORMANN, The Minnesota Star Tribune";
+    content: "RICHARD TSONG-TAATARII, The Minnesota Star Tribune";
   }
   50% {
     content: "RICHARD TSONG-TAATARII, The Minnesota Star Tribune";
   }
   75% {
-    content: "RICHARD TSONG-TAATARII, The Minnesota Star Tribune";
+    content: "ALEX KORMANN, The Minnesota Star Tribune";
   }
 }
 </style>
