@@ -54,6 +54,7 @@ Renders a visual replica of the Immersive Template hero.
   } = $props();
 </script>
 
+
 <style>
   #slider { 
 	animation: changeBg 24s infinite;
@@ -62,10 +63,10 @@ Renders a visual replica of the Immersive Template hero.
   position: relative;
 }
 @keyframes changeBg { 
-   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpgw=900"); background-position: center;}
-   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPGw=900"); background-position: center;}
-   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPGw=900"); background-position: center;}
-   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPGw=900"); background-position: center;}
+   0%,100%  {background-image: url("https://arc.stimg.co/startribunemedia/IKKH4ZHCIVBKTNZUXKPSTN2NYY.jpg?w=1000"); background-position: center;}
+   25% {background-image: url("https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?w=1000"); background-position: center;}
+   50% {background-image: url("https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?w=1000"); background-position: center;}
+   75% {background-image: url("https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?w=1000"); background-position: center;}
 }
 
 .byline-holder {
@@ -105,6 +106,11 @@ color: #f2f2f2;
   }
 }
 </style>
+
+<link rel="preload" as="image" href="https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?w=1000">
+<link rel="preload" as="image" href="https://arc.stimg.co/startribunemedia/JB77IPYOERBNRIBQWMFQFP7LCQ.JPG?w=1000">
+<link rel="preload" as="image" href="https://arc.stimg.co/startribunemedia/UIPH37G65BEAPJKQDAEGQWKCP4.JPG?w=1000">
+<link rel="preload" as="image" href="https://arc.stimg.co/startribunemedia/OBR3Q2CGUJHQBOPZRY6KAHR3KQ.JPG?w=1000">
 
 <Grid>
   <GridRow variant="fullBleed" additionalClasses="block">
