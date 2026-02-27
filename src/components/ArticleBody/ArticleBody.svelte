@@ -585,5 +585,6 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
   font-size:11px;
   max-width: 600px;
   margin: auto;
+margin-bottom: 1rem;
   }
 </style>
