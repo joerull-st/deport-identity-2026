@@ -66,7 +66,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
     
     <Paragraph>
-    But residents’ collective response to the surge — “One of the greatest mass displays of neighborly love that I’ve seen in my lifetime,” as an <a href="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" target="_blank" rel="" title="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" data-mrf-link="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" cmp-ltrk="Article Links" cmp-ltrk-idx="1" mrfobservableid="d14edade-c573-496b-98f6-abe843e451ff">Atlantic writer described it </a>— has ricocheted across the internet, captivated the country’s attention and given the state a new identity.
+    But residents’ collective response to the surge — “One of the greatest mass displays of neighborly love that I’ve seen in my lifetime,” as an <a href="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" target="_blank" rel="" title="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" data-mrf-link="https://www.theatlantic.com/family/2026/01/ice-minnesota-neighbor/685827/" cmp-ltrk="Article Links" cmp-ltrk-idx="1" mrfobservableid="d14edade-c573-496b-98f6-abe843e451ff">Atlantic writer described it </a> — has ricocheted across the internet, captivated the country’s attention and given the state a new identity.
     </Paragraph>
 
     <Paragraph>
@@ -83,7 +83,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
   <GridRow variant={"fullBleed"} additionalClasses={"!max-w-6xl gap-y-5 pt-12"}>
     <img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/FTL5RYNNYBF7DABMNGMAMC2CVM.JPG?&amp;w=1080" style="color: transparent;">
-    <div class="photo-cap">Clergy and community members came together on Jan. 23 outside Minneapolis-St. Paul International Airport in protest over connections among the airport, Delta Air Lines and ICE’s enforcement actions. About 100 clergy leaders were detained by airport police.<div class="attrib"><span style="white-space: nowrap;">Elizabeth Flores/The Minnesota Star Tribune</span></div></div>
+    <div class="photo-cap"  style="max-width:620px !important;">Clergy and community members came together on Jan. 23 outside Minneapolis-St. Paul International Airport to protest connections among the airport, Delta Air Lines and ICE’s enforcement actions. About 100 clergy leaders were detained by airport police.<div class="attrib"><span style="white-space: nowrap;">Elizabeth Flores/The Minnesota Star Tribune</span></div></div>
   </GridRow>
 
 
@@ -120,19 +120,19 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
   <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px] ">
     <div class="md:max-w-6xl mt-8 mb-8 mx-auto px-2">
       <div class="md:max-w-6xl mt-2 mb-0 mx-auto px-0">
-        <img class="block mb-2" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" alt="photo">
+        <img class="block mb-2 xs:h-auto xs:aspect-[3/2]" src="https://arc.stimg.co/startribunemedia/PCUWLTGN25E25IFTTAAVQR7VQE.jpg?&amp;w=1080" alt="photo">
       </div>
       <div class="md:flex">
         <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
-          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080');">
+          <div class="bg-no-repeat bg-cover bg-center md:h-[28rem] mb-0  xs:h-auto md:aspect-auto xs:aspect-[3/2]" style="background-image: url('https://arc.stimg.co/startribunemedia/KIVM3N65TRGRHF5ODNN5VVUX2E.jpg?&amp;w=1080');">
           </div>
         </div>
         <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
-          <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080');">
+          <div class="bg-no-repeat bg-cover bg-center z md:h-[28rem] mb-0  md:aspect-auto xs:h-auto xs:aspect-[3/2]" style="background-image: url('https://arc.stimg.co/startribunemedia/QX4ONHAKRZAOBP43CF43Z3SQWY.jpg?&amp;w=1080');">
           </div>
         </div>
       </div>
-      <div class="photo-cap">Protest came in many forms, from signing an art installation modeled after the U.S. Constitution to filming the activities of federal immigration agents. Alongside marches and rallies were efforts — such as donating and delivering food — to help those unable to leave their homes for fear of being arrested.<div class="attrib"><span style="color: #666;">Alex Kormann and Richard Tsong-Taatarii/The Minnesota Star Tribune</span></div>    </div>
+      <div class="photo-cap" style="max-width:625px !important;">From signing an art installation modeled after the U.S. Constitution to filming the activities of federal immigration agents, protesters made it known that Operation Metro Surge wasn't welcome in Minnesota. Alongside marches and rallies were efforts — such as donating and delivering food — to help those unable to leave their homes for fear of arrest.<div class="attrib"><span style="color: #666;">Alex Kormann and Richard Tsong-Taatarii/The Minnesota Star Tribune</span></div>    </div>
   </div>
   </GridRow>
 
@@ -183,7 +183,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
             </div>
           </div>
         </div>
-        <div class="photo-cap">Community members from all walks of life, such as church groups, came out to protest, bringing their creativity: Lit luminaria spelling out "ICE OUT" were placed on the surface of Lake Nokomis in Minneapolis.<div class="attrib"><span style="white-space: nowrap;">Jerry Holt and Jeff Wheeler/The Minnesota Star Tribune</span></div>
+        <div class="photo-cap"  style="max-width:620px !important;">Community members from all walks of life, including neighborhood groups, school associations and religious communities, came out to protest, bringing their creativity, such as placing luminaria spelling out “ICE OUT” on the surface of Lake Nokomis in Minneapolis.<div class="attrib"><span style="white-space: nowrap;">Jerry Holt and Jeff Wheeler/The Minnesota Star Tribune</span></div>
         </div>
       </div>
     </div>
@@ -228,7 +228,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
                   </div>
                 </div>
               </div>
-              <div class="photo-cap">March Against Minnesota Fraud organizer Jake Lang was escorted away from his own rally by an unidentified man after an altercation with counterprotesters near Minneapolis City Hall. He then asked women in a car for a ride and crawled into the backseat.<div class="attrib"><span style="white-space: nowrap;">Yuki Iwamura/The Associated Press</span></div>
+              <div class="photo-cap"  style="max-width: 675px !important;">March Against Minnesota Fraud organizer Jake Lang, known for his racist rhetoric, was escorted away from his own rally by a Black man after an altercation with counterprotesters near Minneapolis City Hall. He then asked two Black women in a car for a ride and crawled into the backseat.<div class="attrib"><span style="white-space: nowrap;">Yuki Iwamura/The Associated Press</span></div>
               </div>
             </div>
           </div>
@@ -262,19 +262,19 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
         <div class="col-span-full w-screen relative left-1/2 -translate-x-1/2 max-w-[2000px] ">
           <div class="md:max-w-6xl mt-8 mb-8 mx-auto px-2">
             <div class="md:max-w-6xl mt-2 mb-0 mx-auto px-0">
-              <img class="block mb-2" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" alt="photo">
+              <img class="block mb-2  xs:h-auto md:aspect-auto xs:aspect-[3/2]" src="https://arc.stimg.co/startribunemedia/G5L54YAI5NH5PKKKFVFNULHEBM.jpg?&amp;w=1080" alt="photo">
             </div>
             <div class="md:flex">
               <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
-                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/VZP7BCZ4FBA2LDV2H4RE3W26PU.jpg?&amp;w=1080');">
+                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0   xs:h-auto md:aspect-auto xs:aspect-[3/2]" style="background-image: url('https://arc.stimg.co/startribunemedia/VZP7BCZ4FBA2LDV2H4RE3W26PU.jpg?&amp;w=1080');">
                 </div>
               </div>
               <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
-                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0  xs:h-[20rem]" style="background-image: url('https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080');">
+                <div class="bg-no-repeat bg-cover bg-center xl:h-[28rem] lg:h-[28rem] md:h-[28rem] mb-0   xs:h-auto md:aspect-auto xs:aspect-[3/2]" style="background-image: url('https://arc.stimg.co/startribunemedia/JYCVYCY2ZJFRNCMUL5AR6NEFLM.jpg?&amp;w=1080');">
                 </div>
               </div>
             </div>
-            <div class="photo-cap" style="max-width:660px !important;">Protesters took to the streets in downtown Willmar, Minn., a day after a 19-year-old Somali woman was taken by ICE agents, and in North St. Paul, where high school students staged a walkout.<div class="attrib"><span style="color: #666;">Richard Tsong-Taatarii and Anthony Souffle/The Minnesota Star Tribune</span></div></div>
+            <div class="photo-cap" style="max-width:595px !important;">Protest took many forms: The Singing Resistance gathered at Midtown Global Market in Minneapolis; an artist rendered Alex Pretti at the site of his memorial in Minneapolis; and high school students staged a walkout in North St. Paul.<div class="attrib"><span style="color: #666;">Richard Tsong-Taatarii and Anthony Souffle/The Minnesota Star Tribune</span></div></div>
         </div>
         </GridRow>
 
